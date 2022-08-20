@@ -1,0 +1,94 @@
+.firstdiv{
+    position:relative;top:20px;
+}
+#logo{
+    height:10vh;width:10vw;margin-left:50px;
+}
+.logotxt{
+    color:red;position: relative;bottom:19px;left:37px;
+}
+.txtord{font-size:15px;
+    border:1px red solid;background-color:red;border-bottom-left-radius:30px;border-top-left-radius:30px;padding:13px;}
+.btnord{border:1px white solid;background-color:orange;color:white;width:12vw;font-weight:bold;
+    padding:10px;border-radius:6px;text-transform:uppercase;margin-left:15px;}
+h1{margin-left:17px;font-family:Arial, Helvetica, sans-serif;}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#foodimg{
+    height:80vh;width:50vw;
+}
+.containerdiv{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:180px;
+    right:-10px;
+    background-color: red;
+    opacity:52%;
+    height:50vh;
+    width:50vw;
+    border-bottom-left-radius:7px;
+}
+.imgtxt{color:white;font-size:23px;margin-left:27px;margin-bottom:5px;}
+.btngreen{background-color:rgb(14, 237, 14);color:white;padding:10px;margin-left:30px;
+    font-weight: bold;border:transparent 1px solid;
+    border-radius:5px;height:8vh;width:15vw;}
+.container1{
+    display:flex;flex-direction:row;justify-content:center;text-align:center;align-items:center;
+}
+h2{font-size:35px;text-align:center;}
+.imgdiv{height:32vh;width:25vw;border-radius:6px;background-color:whitesmoke;margin:13px;}
+.imgdiv h3{font-size:25px;}
+img{height:70px;width:60px;margin-top:30px;}
+.container2{margin-left:50px;border-radius:2px; display:flex;flex-direction:row;
+    justify-content:center;height:75vh;width:85vw;
+    background-color:gainsboro; margin-top:22px;padding-top:40px;}
+.img1{height:40vh;width:13vw;}
+.img2{height:24vh;width:16vw;}
+.img3{height:33vh;width:10vw;}
+.container2subdiv{padding-right:40px;}
+.container2subdiv1{padding-right:20px;}
+.container2subdiv2{margin-bottom:-20px;}
+h3{font-size:20px;}
+ul {
+    list-style: none;
+  }
+  ul li::before {
+    content: "\2022";
+    color:green;display: inline-block; 
+    width: 1em;margin-left:-2em;
+    font-weight: bold;
+}
+  .btnord1{background-color:green;padding:10px;border-radius:5px;color:white;border:1px solid transparent;}
+  .ftr pre{text-align: center;}
+  @media only screen and (max-width:600px){
+    .containerdiv{background-color:navajowhite;display:none;}
+     .container{display:flex;flex-direction:column;justify-content:center;text-align:center;align-items:center;}
+     .container1{display:flex;flex-direction:column;justify-content:center;text-align:center;align-items:center;}
+     .container2{display: inline-block;}.container2subdiv{text-align:center;}
+     ul{font-weight: bold;}h2{font-size:23px;}h3{font-size:15px;}
+     .container2subdiv1{background-color:gainsboro;}
+     .container2subdiv2{background-color:gainsboro;}.container2subdiv3{background-color:gainsboro;padding:20px;}
+     .img1{height:40vh;width:40vw;margin-left:100px;}
+     .img2{height:40vh;width:40vw;margin-left:100px;}
+     .img3{height:40vh;width:40vw;margin-left:80px;}.btnord{width:18vw;padding:7px;}
+     .ftr{margin-top:30px;}
+  }
+  @media only screen and (min-width:600px){
+    .containerdiv{display:none;}.firstdiv{margin-left:130px;font-size:12px;}
+    .firstdiv #foodimg{height:60vh;width:40vw;}
+    .container1 h3{font-size:18px;}
+    .container2subdiv{margin-left:30px;}}.container2subdiv h3{font-size:15px;}
+    @media only screen and (min-width:768px) {
+        .containerdiv{display:none;}
+        .firstdiv{margin-left:100px;font-size:16px;}
+        .firstdiv #foodimg{height:70vh;width:50vw;}
+        .container1 h3{font-size:20px;}
+        .container2subdiv{margin-left:30px;}.container2subdiv h3{font-size:15px;} }
+        @media only screen and (min-width:992px) {
+            .containerdiv{display:block;}
+            .container1 h3{font-size:22px;}
+            .container2subdiv{margin-left:30px;}.container2subdiv h3{font-size:17px;}}
